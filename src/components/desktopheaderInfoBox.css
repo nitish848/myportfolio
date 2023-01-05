@@ -1,0 +1,50 @@
+.desktopheaderInfoBox{
+    width:70%;
+    height: 95px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infoBoxwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.infoBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.num{
+    font-size: 26px;
+}
+.base{
+    font-size: 15px;
+    opacity: 78%;
+}
+@media only screen and (max-width: 600px) {
+    .infoBoxwrapper{
+        flex-direction: column;
+    }
+    .desktopheaderInfoBox{
+        height: 100%;
+        padding: 4%; 
+    }
+    .num{
+        font-size: 21px;
+    }
+    .base{
+        font-size: 12px;
+    }
+    .desktopheaderInfoBox{
+        width:55%;
+    }
+  }
+
+

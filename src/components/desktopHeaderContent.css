@@ -1,0 +1,42 @@
+.desktopHeaderContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.desktopHeaderContent h1{
+    background-color: #FCDB65;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 8px;
+}
+.desktopHeaderContent h2{
+    font-size: 23px;
+    font-weight: 500;
+    margin: 10px;
+}
+.desktopHeaderContent p{
+    font-size: 15px;
+    opacity: 70%;
+    text-align: center;
+    width: 55%;
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .desktopHeaderContent h1{
+        border-radius: 7px;
+        padding: 8px;
+        font-size: 15px;
+    }
+    .desktopHeaderContent h2{
+        font-size: 15px;
+    }
+    .desktopHeaderContent p{
+        font-size: 13px;
+    }
+  }

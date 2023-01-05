@@ -1,0 +1,77 @@
+.desktopMenu{
+    width: 90%;
+    background-color: #fff;
+    height: 39px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 15px 8px 15px;
+    margin-top: 40px;
+}
+.menuLinks{
+    display: flex;
+    width: 40%;
+    align-items: center;
+}
+.menuBtn{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+.logo{
+    background-color: #FCDB65;
+    width: 70px;
+    border-radius: 10px;
+    height: 40px;
+}
+.menuLinks ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 19px;
+}
+.menuBtn button{
+    background-color: #FCDB65;
+    color: #000;
+    border-radius: 10px;
+    font-size: 19px;
+    width: 120px;
+    border: none;
+    height: 40px;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .menuLinks{
+        width: 50%;
+    } 
+  }
+  @media only screen and (max-width: 1100px) {
+    .menuLinks{
+        width: 60%;
+    } 
+  }
+  @media only screen and (max-width: 930px) {
+    .menuLinks{
+        width: 70%;
+    } 
+    .menuLinks ul{
+        font-size: 15px;
+    }
+    .menuBtn button{
+        font-size: 15px;
+    }
+    
+  }
+  @media only screen and (max-width: 800px) {
+    .menuLinks{
+        width: 75%;
+    } 
+  }
+  @media only screen and (max-width: 600px) {
+    .desktopMenu{
+        display: none;
+    }
+  }
